@@ -1,0 +1,31 @@
+<div class="container ">
+    <header>
+        <img src="../../../assets/images/pokeball.png" alt="Logo" width="70px">
+        <h1>Pokesino</h1>
+    </header>
+    <div class="card" style="width: 22rem;">
+        <div class="card-body">
+          <h3 class="card-title">Welcome back !</h3>
+          <p>Please fill in this form to sign in !</p>
+          <hr>
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Username" id="username">
+                <input type="password" class="form-control" placeholder="Password" id="password">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">SIGN IN</button>
+            <hr>
+            <button  type="submit" class="btn btn-primary" id="google">
+                <img src="../../../assets/images/gmail.svg" width="24px">
+                SIGN IN WITH GOOGLE</button>
+            <button  type="submit" class="btn btn-primary" id="facebook">
+                <img src="../../../assets/images/facebook.svg" width="24px">
+                SIGN IN WITH FACEBOOK</button>
+            <p id="forgot-password">Forgot password ? <a routerLink="/forgot-password">Click here</a></p>
+            <p id="already-register">You don't have an account ? <a routerLink="/sign-up">Sign up here</a></p>
+        </form>
+        </div>
+      </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="container ">
+    <header>
+        <img src="../../../assets/images/pokeball.png" alt="Logo" width="70px">
+        <h1>Pokesino</h1>
+    </header>
+    <div class="card" style="width: 22rem;">
+        <div class="card-body">
+          <h3 class="card-title">Welcome !</h3>
+          <p>Please fill in this form to create an account !</p>
+          <hr>
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Username" id="username">
+                <input type="email" class="form-control" placeholder="Email" id="email">
+                <input type="password" class="form-control" placeholder="Password" id="password">
+                <input type="password" class="form-control" placeholder="Confirm Password" id="password-confirm">
+              </div>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="terms">
+                <label class="custom-control-label" for="terms">
+                    I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">SIGN UP</button>
+            <p id="already-register">Already have an account ? <a routerLink="/sign-in">Login here</a></p>
+        </form>
+        </div>
+      </div>
+</div>
